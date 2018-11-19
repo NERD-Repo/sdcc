@@ -40,8 +40,9 @@ HOSTPREFIX = /usr/local
 
 # Directory that all of the soure trees get copied into
 SRCDIR = $(TOPDIR)/$(TARGET_PLATFORM).build
-ORIGDIR = $(HOME)/build/sdcc-build/orig
-BUILDDIR = $(TOPDIR)/build/$(TARGET_PLATFORM)/sdcc
+#ORIGDIR = $(HOME)/build/sdcc-build/orig
+ORIGDIR = $(TOPDIR)/../.tmp/sdcc-build/orig
+BUILDDIR = $(TOPDIR)/../output/$(TARGET_PLATFORM)/sdcc
 BINDIR = $(BUILDDIR)/bin
 STAGINGBASE = $(TOPDIR)/..
 HTDOCSDIR = $(STAGINGBASE)/htdocs
