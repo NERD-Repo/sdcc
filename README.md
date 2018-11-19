@@ -1,5 +1,5 @@
 ### How to compile sdcc?
-if you are below sdcc/, then tap:
+if you are below sdcc-repo/, then tap:
 
     > cd sdcc-build
       make
